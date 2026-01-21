@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512" role="img" aria-labelledby="title2">
+  <title id="title2">Abstract mark — Concept 2</title>
+  <defs>
+    <linearGradient id="g2" x1="0" x2="1">
+      <stop offset="0%" stop-color="#3b82f6"/>
+      <stop offset="100%" stop-color="#7c3aed"/>
+    </linearGradient>
+  </defs>
+
+  <g fill="none" stroke="url(#g2)" stroke-width="36" stroke-linecap="round" stroke-linejoin="round">
+    <polygon points="256,84 392,170 392,342 256,428 120,342 120,170" opacity="0.14" fill="url(#g2)"/>
+    <path d="M160 160v192M352 160v192M160 256h192" stroke="#fff" stroke-width="28" stroke-linecap="round"/>
+  </g>
+</svg>

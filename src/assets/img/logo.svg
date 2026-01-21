@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 300" width="300" height="300">
+  <defs>
+    <style>
+      .monogram {
+        font-family: 'Playfair Display', 'Times New Roman', serif;
+        font-size: 180px; 
+        font-weight: 400;
+        fill: #ffffff; /* White color */
+      }
+    </style>
+  </defs>
+
+  <g transform="translate(150, 190)">
+    <text x="-35" y="0" text-anchor="middle" class="monogram">C</text>
+    <text x="35" y="0" text-anchor="middle" class="monogram">H</text>
+  </g>
+</svg>

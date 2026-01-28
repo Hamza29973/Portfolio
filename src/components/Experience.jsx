@@ -9,6 +9,20 @@ const Experience = () => {
 
           <div className="experience__item">
             <div className="experience__header">
+              <h3 className="experience__title">Ark-x Talent Solutions (Stage)</h3>
+              <span className="experience__date">2025 - Présent</span>
+            </div>
+            <div className="experience__content">
+              <ul className="experience__details">
+                <li>Participation au développement d’applications MERN</li>
+                <li>Intégration d’API et création d’interfaces responsive</li>
+                <li>Utilisation de Git/GitHub et travail en méthode Agile</li>
+              </ul>
+            </div>
+          </div>
+
+          <div className="experience__item">
+            <div className="experience__header">
               <h3 className="experience__title">Diploma in Digital Development</h3>
               <span className="experience__date">2022 - 2024</span>
             </div>

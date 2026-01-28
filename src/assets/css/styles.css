@@ -102,6 +102,7 @@ button {
 .section {
   padding: var(--section-padding);
   position: relative;
+  margin: 83px 0;
 }
 
 .section__title {
@@ -187,7 +188,7 @@ button {
 }
 
 .logo {
-  height: 42px;
+  height: 51px;
   width: auto;
   display: block;
 }
@@ -199,7 +200,7 @@ button {
 
 @media screen and (max-width: 768px) {
   .logo {
-    height: 36gpx;
+    height: 51px;
   }
 }
 
@@ -328,6 +329,7 @@ button {
   grid-template-columns: 1fr 1fr;
   position: relative;
   z-index: 1;
+  margin-top: -71px;
 }
 
 .hero__content {
@@ -338,6 +340,7 @@ button {
   font-size: 4rem;
   margin-bottom: 1.5rem;
   line-height: 1.1;
+  min-height: 120px;
 }
 
 .hero__title-gradient {
@@ -355,7 +358,7 @@ button {
 } */
 
 .hero__description {
-  margin-top: 3rem;
+  margin-top: 4.5rem;
   margin-bottom: 3rem;
   color: var(--text-secondary);
   font-size: 1.1rem;
@@ -866,6 +869,7 @@ button {
 
   .hero__title {
     font-size: 3.5rem;
+    min-height: 100px;
   }
 
   .hero__subtitle {
@@ -939,6 +943,7 @@ button {
 
   .hero__title {
     font-size: 2.75rem;
+    min-height: 85px;
   }
 
   .hero__subtitle {
@@ -975,6 +980,7 @@ button {
 
   .hero__title {
     font-size: 2.5rem;
+    min-height: 80px;
   }
 
   .section__title {
@@ -1339,7 +1345,7 @@ button {
 /* Ajoutez ce CSS */
 .hero__title.glitch-effect {
   position: relative;
-  display: inline-block;
+  display: block;
 }
 
 .glitch-text {
@@ -1619,6 +1625,7 @@ button {
 
   .hero__title {
     font-size: 2.25rem;
+    min-height: 75px;
   }
 
   .glitch-text {
@@ -1844,6 +1851,7 @@ button {
 @media screen and (max-width: 360px) {
   .hero__title {
     font-size: 2rem;
+    min-height: 70px;
   }
 
   .glitch-text {
@@ -1935,6 +1943,7 @@ button {
     font-size: 5rem;
     line-height: 1.1;
     margin-bottom: 2rem;
+    min-height: 140px;
   }
 
   .glitch-text {

@@ -2,7 +2,7 @@
 
 Welcome to my **React Portfolio** — a personal site showcasing my skills, projects, and contact info.
 
-🔗 **Live Demo:** [https://portfolio-hamza29973.vercel.app/](https://portfolio-hamza29973.vercel.app/)
+🔗 **Live Demo:** [https://portfolio-lac-eight-25.vercel.app/](https://portfolio-lac-eight-25.vercel.app/)
 
 ---
 

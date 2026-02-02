@@ -339,6 +339,8 @@ button {
 
 .hero__content {
   max-width: 600px;
+  margin-top: 3rem;
+  /* Pushed down slightly key user request */
 }
 
 .hero__title {
@@ -686,7 +688,7 @@ button {
 
 /* =============== PROJECTS =============== */
 .projects__container {
-  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
   gap: 2.5rem;
 }
 
@@ -787,7 +789,7 @@ button {
 
 /* =============== SKILLS =============== */
 .skills__container {
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
   gap: 2.5rem;
 }
 
@@ -913,7 +915,7 @@ button {
 
 /* =============== CERTIFICATES =============== */
 .certificates__container {
-  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
   gap: 2rem;
 }
 
@@ -1145,11 +1147,16 @@ button {
 }
 
 @media screen and (max-width: 768px) {
+  .container {
+    padding: 0 1.5rem;
+  }
 
   .hero__container,
   .about__container,
   .contact__container {
     grid-template-columns: 1fr;
+    margin-top: 2rem;
+    /* Reset negative margin from desktop */
   }
 
   .hero__content {
@@ -1162,6 +1169,10 @@ button {
     font-size: 3rem;
   }
 
+  .glitch-text {
+    font-size: 3rem;
+  }
+
   .hero__image {
     order: 0;
     margin-bottom: 2rem;
@@ -1170,6 +1181,7 @@ button {
   .image-container {
     width: 300px;
     height: 300px;
+    margin: 0 auto;
   }
 
   .hero__buttons {
@@ -1179,21 +1191,60 @@ button {
   .contact__form-group {
     grid-template-columns: 1fr;
   }
+
+  .about__img {
+    height: 400px;
+  }
 }
 
 @media screen and (max-width: 576px) {
   .hero__title {
-    font-size: 2.5rem;
+    font-size: 2rem;
+  }
+
+  .glitch-text {
+    font-size: 2rem;
+  }
+
+  .section__title {
+    font-size: 2rem;
   }
 
   .image-container {
-    width: 100%;
-    height: auto;
-    aspect-ratio: 1/1;
-    max-width: 300px;
+    width: 250px;
+    height: 250px;
+    margin: 0 auto;
   }
 
   .about__img {
-    height: 400px;
+    height: 300px;
+  }
+
+  .hero__buttons {
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+  }
+
+  .hero__buttons .button {
+    width: 100%;
+    justify-content: center;
+  }
+}
+
+@media screen and (max-width: 350px) {
+
+  .hero__title,
+  .glitch-text {
+    font-size: 1.7rem;
+  }
+
+  .section__title {
+    font-size: 1.75rem;
+  }
+
+  .image-container {
+    width: 200px;
+    height: 200px;
   }
 }

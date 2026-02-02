@@ -3,11 +3,19 @@ import React from "react";
 import certJS from "../assets/pdf/certijs.pdf";
 import certGit from "../assets/pdf/certif-git.pdf";
 import certNode from "../assets/pdf/certi-node.pdf";
+import certReact from "../assets/pdf/Certification-react.pdf";
+import certMongo from "../assets/pdf/certicate-mongo.pdf";
+import certTailwind from "../assets/pdf/certificate-tailwind-css.pdf";
+import certHtmlCss from "../assets/pdf/html-css-certificate.pdf";
 
 const certificatesData = [
+  { title: "HTML & CSS", pdf: certHtmlCss },
   { title: "JavaScript Module", pdf: certJS },
   { title: "Advanced Git & GitHub", pdf: certGit },
+  { title: "Tailwind CSS", pdf: certTailwind },
+  { title: "React JS", pdf: certReact },
   { title: "NodeJS Module", pdf: certNode },
+  { title: "MongoDB", pdf: certMongo },
 ];
 
 const Certificates = () => {
@@ -24,7 +32,7 @@ const Certificates = () => {
               </div>
               <h3 className="certificate__title">{cert.title}</h3>
               <a
-                href={cert.pdf} 
+                href={cert.pdf}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="certificate__link"

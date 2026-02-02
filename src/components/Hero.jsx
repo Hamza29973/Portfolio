@@ -8,8 +8,11 @@ function Hero() {
       <div className="hero__container container grid">
         <div className="hero__content">
           <h1 className="hero__title glitch-effect">
-            <span className="glitch-text" data-text="CHANNOUF Hamza">
-              CHANNOUF Hamza
+            <span className="glitch-text" data-text="CHANNOUF">
+              CHANNOUF
+            </span>
+            <span className="glitch-text" data-text="Hamza">
+              Hamza
             </span>
             <span className="glitch-line"></span>
             <span className="dev-text">Developer Web</span>

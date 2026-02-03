@@ -7,6 +7,7 @@ import certReact from "../assets/pdf/Certification-react.pdf";
 import certMongo from "../assets/pdf/certicate-mongo.pdf";
 import certTailwind from "../assets/pdf/certificate-tailwind-css.pdf";
 import certHtmlCss from "../assets/pdf/html-css-certificate.pdf";
+import certExpress from "../assets/pdf/express.pdf";
 
 const certificatesData = [
   { title: "HTML & CSS", pdf: certHtmlCss },
@@ -15,6 +16,7 @@ const certificatesData = [
   { title: "Tailwind CSS", pdf: certTailwind },
   { title: "React JS", pdf: certReact },
   { title: "NodeJS Module", pdf: certNode },
+  { title: "Express JS", pdf: certExpress },
   { title: "MongoDB", pdf: certMongo },
 ];
 

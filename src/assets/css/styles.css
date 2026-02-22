@@ -340,14 +340,12 @@ button {
 .hero__content {
   max-width: 600px;
   margin-top: 3rem;
-  /* Pushed down slightly key user request */
 }
 
 .hero__title {
   font-size: 4rem;
   margin-bottom: 1.5rem;
   line-height: 0.85;
-  /* Reduced to bring lines closer */
   min-height: 120px;
   display: flex;
   flex-direction: column;
@@ -378,7 +376,6 @@ button {
   font-weight: 600;
   letter-spacing: 1px;
 
-  /* Interaction: Hidden by default */
   opacity: 0;
   transform: translateY(20px);
   transition: all 0.5s cubic-bezier(0.68, -0.55, 0.27, 1.55);
@@ -399,7 +396,6 @@ button {
   position: relative;
   display: inline-block;
   white-space: nowrap;
-  /* Ensures simple glitch effect works on full name */
 }
 
 .glitch-text::before,

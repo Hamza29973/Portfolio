@@ -2,6 +2,7 @@ import React from "react";
 import projet1 from "../assets/img/projet1.png";
 import projet2 from "../assets/img/projet2.png";
 import projet3 from "../assets/img/projet3.png";
+import krigoImg from "../assets/img/krigo.png"; 
 
 const Projects = () => {
   return (
@@ -10,6 +11,32 @@ const Projects = () => {
         <h2 className="section__title">Mes Projets</h2>
         <div className="projects__container grid">
 
+          {/* --- PROJET PRINCIPAL: KRIGO --- */}
+          <article className="project__card">
+            <div className="project__image">
+              <img src={krigoImg} alt="KriGo Project" className="project__img" />
+            </div>
+            <div className="project__content">
+              <h3 className="project__title">KriGo – Premium Rental Platform</h3>
+              <p className="project__description">
+                Système complet de gestion de location de véhicules (Voitures, Vélos, Trottinettes). 
+                Inclut des tableaux de bord pour Clients, Agences et Super-Admins, avec paiements sécurisés et authentification 2FA.
+              </p>
+              <div className="project__tech">
+                <span className="project__tech-item">MERN Stack</span>
+                <span className="project__tech-item">Stripe/PayPal</span>
+                <span className="project__tech-item">Tailwind CSS</span>
+                <span className="project__tech-item">JWT/2FA</span>
+              </div>
+              <div className="project__links">
+                <a href="https://github.com/Hamza29973/KriGo" target="_blank" className="project__link">
+                  View Code <i className="ri-github-line"></i>
+                </a>
+              </div>
+            </div>
+          </article>
+
+          {/* --- HOTEL SYSTEM --- */}
           <article className="project__card">
             <div className="project__image">
               <img src={projet2} alt="Laravel Project" className="project__img" />
@@ -33,6 +60,30 @@ const Projects = () => {
             </div>
           </article>
 
+          {/* --- BLOG APP --- */}
+          <article className="project__card">
+            <div className="project__image">
+              <img src={projet3} alt="Blog App API" className="project__img" />
+            </div>
+            <div className="project__content">
+              <h3 className="project__title">Blog App – REST API</h3>
+              <ul className="project__list">
+                <li>API RESTful pour la gestion de blog (CRUD)</li>
+                <li>Architecture MVC (Model-View-Controller)</li>
+                <li>Sécurisation des routes et gestion des données</li>
+              </ul>
+              <div className="project__tech">
+                <span className="project__tech-item">Node.js</span>
+                <span className="project__tech-item">Express.js</span>
+                <span className="project__tech-item">JavaScript</span>
+              </div>
+              <a href="https://github.com/Hamza29973/blog-App" target="_blank" rel="noopener noreferrer" className="project__link">
+                View Project <i className="ri-arrow-right-line"></i>
+              </a>
+            </div>
+          </article>
+
+          {/* --- OFPPT PROJECTS --- */}
           <article className="project__card">
             <div className="project__image">
               <img src={projet1} alt="OFPPT Projects" className="project__img" />
@@ -40,44 +91,15 @@ const Projects = () => {
             <div className="project__content">
               <h3 className="project__title">Projets Académiques – OFPPT</h3>
               <ul className="project__list">
-                <li>Plateforme de cours en ligne (HTML5, CSS3, Bootstrap)</li>
+                <li>Plateforme de cours en ligne (HTML5/CSS3)</li>
                 <li>Application de gestion de stock (CRUD)</li>
                 <li>Utilisation de Git/GitHub, Jira et Figma</li>
               </ul>
-              <div className="project__tech">
-                <span className="project__tech-item">HTML5</span>
-                <span className="project__tech-item">CSS3</span>
-                <span className="project__tech-item">Bootstrap</span>
-                <span className="project__tech-item">Git/GitHub</span>
-              </div>
               <a href="https://github.com/Hamza29973" target="_blank" className="project__link">
                 View Project <i className="ri-arrow-right-line"></i>
               </a>
             </div>
           </article>
-
-       <article className="project__card">
-  <div className="project__image">
-    <img src={projet3} alt="Blog App API" className="project__img" />
-  </div>
-  <div className="project__content">
-    <h3 className="project__title">Blog App – REST API</h3>
-    <ul className="project__list">
-      <li>API RESTful pour la gestion de blog (CRUD)</li>
-      <li>Stockage de données via File System (Sans base de données)</li>
-      <li>Architecture MVC (Model-View-Controller)</li>
-    </ul>
-    <div className="project__tech">
-      <span className="project__tech-item">Node.js</span>
-      <span className="project__tech-item">Express.js</span>
-      <span className="project__tech-item">JavaScript</span>
-      <span className="project__tech-item">File System</span>
-    </div>
-    <a href="https://github.com/Hamza29973/blog-App" target="_blank" rel="noopener noreferrer" className="project__link">
-      View Project <i className="ri-arrow-right-line"></i>
-    </a>
-  </div>
-</article>
 
         </div>
       </div>
